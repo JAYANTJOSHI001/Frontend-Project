@@ -1,0 +1,591 @@
+#navbar{
+    font-size: 10px;
+    display: flex;
+    background-color:#241f1f;
+    justify-content: space-between;
+    border: none;
+    height:50px;
+}
+
+.deliverbutton{
+    background-color: #241f1f;
+    color: #f2f2f2;;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+#location{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    right: 0px;
+    bottom: 10px;
+}
+
+#logo{
+    height: 150px;
+    position: relative;
+    left: 10px;
+}
+
+#search{
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+#item_dropdown{
+    width: 40px;
+    height: 35px;
+    font-size: 15px;
+    background-color: #f2f2f2;
+    color: l;
+    border-radius: 10% 0% 0% 10%;
+    position: relative;
+    top: 1px;
+    left: 4px;
+}
+
+#searchbar{
+    width: 650px;
+    height: 35px;
+    font-size: 25px;
+    text-align: left;
+    position: relative;
+    top: 4px;
+}
+
+#searchbutton{
+    width: 40px;
+    height: 38px;
+    color: black;
+    background-color: #f90;
+    position: relative;
+    right: 3px;
+    top:6px;
+    border-radius: 0% 10% 10% 0%;
+}
+
+#langbutton{
+    background-color:#241f1f;
+    color: #f2f2f2;
+    height: 50px;
+    width: 75px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;    
+}
+
+#signinbutton{
+    background-color:#241f1f;
+    color:#f2f2f2;
+    font-size: 15px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#orderbutton{
+    background-color:#241f1f;
+    color: #f2f2f2;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 10px;
+}
+
+#cartbutton{
+    background-color:#241f1f;
+    color: #f2f2f2;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 10px;
+}
+
+#navbase{
+    height: 30px;
+}
+
+#navbasemenu{
+    background-color: #232f3e;
+    height: 30px; 
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -30px;
+    z-index: 20px;
+}
+
+#navbasebg{
+    width: 1520px;
+    background-color: #232f3e;
+    height:30px;
+}
+
+#menubutton{
+    background-color: #232f3e;
+    color: #f2f2f2;
+    height: 30px;
+    width: 60px;
+
+}
+.navbasebutton{
+    background-color: #232f3e;
+    color: #f2f2f2;
+}
+
+#display{
+    height: 608px;
+    transform: none;
+}
+
+#imagedecoration{
+    width: 1520px;
+    height: 350px;
+    background-color: #f2f2f271;
+    position:relative;
+    bottom: 355px;
+}
+
+#Gaming{
+    background-color: #f2f2f2;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    position: relative;
+    bottom: 680px;
+    left: 20px;
+}
+
+#Gamingheading{
+    height:20px ;
+    aspect-ratio: 10/1;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 100 px;
+    left:  px;
+}
+
+#Headset{
+    width: 100px;
+    position: relative;
+    top: 60px;
+    right: 180px;
+}
+
+#Headsettext{
+    position: relative;
+    top: 190px;
+    right: 280px;
+}
+
+#Keyboard{
+    width: 150px;
+    position: relative;
+    top: 70px;
+    right: 180px;
+}
+
+#Keyboardtext{
+    position: relative;
+    top: 190px;
+    right: 320px;
+}
+
+#Computermice{
+    height: 60px;
+    position: relative;
+    top: 250px;
+    right: 540px;
+}
+
+#Computermicetext{   
+    height:20px ;
+    aspect-ratio: 5/1;
+    position: relative;
+    top: 350px;
+    right: 660px;
+}
+
+#Chair{
+    width: 100px;
+    position: relative;
+    top: 220px;
+    right: 580px;
+}
+
+#Chairtext{
+    width: 300px;
+    position: relative;
+    top: 350px;
+    right: 690px;
+}
+
+.seemore{
+    aspect-ratio: 3/1;
+    height: 20px; 
+}
+
+#seemore1{
+    position: relative;
+    top: 400px;
+    right: 900px;
+}
+
+#DealsinPCs{
+    background-color: #f2f2f2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    bottom: 1130px;
+    left: 400px;
+}
+
+#pcimage{
+    width: 250px;
+    aspect-ratio: 3/4;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+#seemore2{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    font-size: 16px;
+    top: 40px;
+    left: 30px;
+}
+#Toys{
+    background-color: #f2f2f2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    bottom: 1580px;
+    left: 780px;
+}
+
+#toyimage{
+    width: 250px;
+    aspect-ratio: 3/4;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+#seemore3{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    font-size: 16px;
+    top: 40px;
+    left: 30px;
+}
+
+#RefreshSpace{
+    background-color: #f2f2f2;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    position: relative;
+    bottom: 2030px;
+    left: 1160px;
+}
+
+#Gaming{
+    background-color: #f2f2f2;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    position: relative;
+    bottom: 680px;
+    left: 20px;
+}
+
+.contentheading{
+    height:20px ;
+    aspect-ratio: 10/1;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 20px;
+    bottom: -10px;
+}
+
+#Dinning{
+    width: 150px;
+    position: relative;
+    top: 80px;
+    right: 180px;
+}
+
+#Dinningtext{
+    position: relative;
+    top: 190px;
+    right: 330px;
+}
+
+#home{
+    width: 150px;
+    position: relative;
+    top: 80px;
+    right: 220px;
+}
+
+#hometext{
+    position: relative;
+    top: 190px;
+    right: 370px;
+}
+
+#kitchen{
+    width: 150px;
+    position: relative;
+    top: 250px;
+    right: 580px;
+}
+
+#kitchentext{   
+    height:20px ;
+    aspect-ratio: 5/1;
+    position: relative;
+    top: 350px;
+    right: 720px;
+}
+
+#hair{
+    width: 150px;
+    position: relative;
+    top: 250px;
+    right: 660px;
+
+}
+
+#hairtext{
+    height: 20px;
+    aspect-ratio: 6/1;
+    position: relative;
+    top: 350px;
+    right: 810px;
+}
+
+#seemore4{
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid black;
+    position: relative;
+    font-size: 10px;
+    top: 400px;
+    left: 800px;
+}
+
+#work{
+    background-color: #f2f2f2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    bottom: 1970px;
+    left: 20px;
+}
+
+#compimage{
+    width: 250px;
+    aspect-ratio: 3/4;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+#seemore5{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    font-size: 16px;
+    top: 40px;
+    left: 30px;
+}
+#furniture{
+    background-color: #f2f2f2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    bottom: 2420px;
+    left: 400px;
+}
+
+#furnitureimage{
+    width: 250px;
+    aspect-ratio: 3/4;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+#seemore6{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    font-size: 16px;
+    top: 40px;
+    left: 30px;
+}
+
+#Lappy{
+    background-color: #f2f2f2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    bottom: 2870px;
+    left: 780px;
+}
+
+#Lappyimage{
+    width: 250px;
+    aspect-ratio: 3/4;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+#seemore7{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    font-size: 16px;
+    top: 40px;
+    left: 30px;
+}
+
+#personalcare{
+    background-color: #f2f2f2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    bottom: 3320px;
+    left: 1160px;
+}
+
+#personalcareimage{
+    width: 250px;
+    aspect-ratio: 3/4;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+#seemore8{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    font-size: 16px;
+    top: 40px;
+    left: 30px;
+}
+
+#backtotop{
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    color: #f2f2f2;
+    height: 50px;
+}
+
+#backtotoptext{
+    position: relative;
+    top: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contentlist{
+    background-color: #232f3e;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 500px;
+}
+
+#l1{
+    width: 150px;
+    position: relative;
+    top: 100px;
+    left:300px;
+}
+
+#l2{
+    width: 150px;
+    position: relative;
+    top: -45px;
+    left:500px;
+}
+
+#l3{
+    width: 150px;
+    position: relative;
+    top: -355px;
+    left:700px;
+}
+
+#l4{
+    width: 150px;
+    position: relative;
+    top: -520px;
+    left: 900px;
+}
+
+#logobottom{
+    height: 50px;
+    position: relative;
+    left: 500px;
+}
+
+#copyrightcomp{
+    background-color: #241f1f;
+    height: 50px;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#copyright{
+    position: relative;
+    top: -20px;
+    left: 500px;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body{
+    height: 1200px;
+}
